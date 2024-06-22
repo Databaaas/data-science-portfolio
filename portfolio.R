@@ -1,7 +1,7 @@
 
 # Install necessary libraries
 #install.packages("remotes")
-
+#install
 #install.packages("blogdown")
 library(blogdown)
 
