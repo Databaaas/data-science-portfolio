@@ -3,13 +3,14 @@
 title: "Welcome to My Project"
 author: "Franco"
 date: "2024-06-18"
-output: html_document
- theme: cosmo
+output:
+  html_document:
+    theme: cosmo
 ---
 
 ## Welcome
 
-Welcome to my project! This is the main page of the site.
+Welcome to my data science projects and resume. This is the main page of the site.
 
 ## About
 
