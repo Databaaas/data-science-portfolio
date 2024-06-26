@@ -184,7 +184,7 @@ client_and_work:
         btnText: "Read more.."
         URL: "https://phuzamanzegiza.github.io/data-science-projects/pca-kmeans-clustering.html"
       image:
-        x: "img/works/variable_representation_plot.png"
+        x: "img/works/variable_representation_plot-2.png"
         _2x: "img/works/variable_representation_plot-2.png"
       is_even: false
 
