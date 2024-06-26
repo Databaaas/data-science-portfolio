@@ -4,9 +4,9 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Matt Dancho."
+  title: "Hello, I’m Francis Ngema."
   subtitle: "Data Scientist"
-  description: "Matt is the founder of <a target='_blank' href='https://www.business-science.io/'>Business Science</a>, an online data science school that helps students become a data scientist in 6-months or less."
+  description: "Francis is the developer of <a target='_blank' href='https://research100.odoo.com/'>Business Science</a>, an online data science website that helps businesses with their data science projects and tertiary students with assignments, reports, and research projects."
   image:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
@@ -16,8 +16,8 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact Matt"
-    URL: "mailto:your-email@gmail.com"
+    btnText: "Contact Francis"
+    URL: "mailto:francisngema@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
@@ -70,8 +70,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com"
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/Office_photo.jpg"
+    _2x: "img/who-am-i/Office_photo.jpg"
 
 # experience
 experience:
@@ -88,34 +88,32 @@ experience:
     URL: "#"
 
   items:
-    - title: "Director of Product Engineering & Market Development"
-      company: "Bonney Forge"
-      duration: "Jan 2017 - Aug 2018"
+    - title: "Medical Manager"
+      company: "South African National Blood Service"
+      duration: "Feb 2018 - Nov 2022"
 
-    - title: "Manager of Sales Engineering"
-      company: "Bonney Forge"
-      duration: "Mar 2014 - Jan 2017"
+    - title: "Registrar in Anatomical Pathology"
+      company: "National Health Laboratory Service/ Wits university"
+      duration: "Feb 2016 - March 2017"
 
-    - title: "Manager of Product Engineering"
-      company: "Bonney Forge"
-      duration: "Nov 2011 - Mar 2014"
+    - title: "Medical Officer"
+      company: "Carletonvile Hospital"
+      duration: "Sep 2013 - Jan 2016"
 
 # education
 education:
   enable: true
   title: "Education"
   items:
-    - university: "Penn State University"
-      year: "2014-2015"
-      degree: "Master of Business Administration (MBA)"
+    - university: "University of Johannesburg"
+      year: "2023-2024"
+      degree: "Master of Applied Data Science"
 
-    - university: "University of Pittsburgh"
-      year: "2008-2010"
-      degree: "Master of Industrial Engineering"
+    - university: "University of Witwatersrand"
+      year: "2001-2009"
+      degree: "MBBCh"
       
-    - university: "Penn State University"
-      year: "2002-2006"
-      degree: "Bachelor of Mechanical Engineering"
+   
 
 
 
@@ -157,29 +155,39 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Sales Demand Forecast Application"
-      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+    - title: "Hierarchical Clustering for Organic Products Store"
+      description: "The case study examines the potential business applications and offers actionable recommendations based on the segmentation analysis"
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+        btnText: "Read more.."
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.html"
       image:
-        x: "img/works/app_sales_demand_forecast.jpg"
-        _2x: "img/works/app_sales_demand_forecast.jpg"
+        x: "img/works/SPLOM.png"
+        _2x: "img/works/SPLOM.png"
       is_even: true
 
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+    - title: "Consumer Behaviour of Certified Rice Customers"
+      description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. The primary objective was to understand the significant determinants driving consumer behavior towards certified rice."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+        btnText: "Read more.."
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/random-forest.html"
       image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
+        x: "img/works/beeswarm.png"
+        _2x: "img/works/beeswarm.png"
       is_even: false
 
-    
+    - title: "Customer Segmentation for a Digital TV Company"
+      description: "This segmentation analysis offers actionable insights for electronics businesses. By understanding distinct consumer preferences and behaviors across these clusters, businesses can tailor marketing strategies, optimise product offerings, and enhance customer experiences. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read more.."
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/pca-kmeans-clustering.html"
+      image:
+        x: "img/works/variable_representation_plot.png"
+        _2x: "img/works/variable_representation_plot.png"
+      is_even: false
+
 
 # testimonial
 testimonial:
@@ -213,26 +221,26 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact Matt"
+  title: "Contact Francis"
     
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/Office_photo.jpg"
+    _2x: "img/who-am-i/Office_photo.jpg"
     
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:your-email@gmail.com'
+    btnAction: 'mailto:francisngemal@gmail.com'
     
   phone:
     title: "Phone Number"
-    number: "--"
+    number: "0711822166"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+    email: '<a href="mailto:francisngema@gmail.com">francisngema@gmail.com</a>'
   address:
     title: "Address"
-    address: "--"
+    address: "Randburg, Gauteng"
   
 
 # newsletter
