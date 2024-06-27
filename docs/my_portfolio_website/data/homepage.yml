@@ -75,8 +75,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com"
   image:
-    x: "img/who-am-i/Office_photo.jpg"
-    _2x: "img/who-am-i/Office_photo.jpg"
+    x: "img/who-am-i/franco_photo.png"
+    _2x: "img/who-am-i/franco_photo.png"
 
 # experience
 experience:
