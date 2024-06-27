@@ -29,26 +29,10 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com"
-
-    - icon: "behance"
-      URL: "https://www.behance.net"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com"
-
     - icon: "facebook"
       URL: "https://www.facebook.com"
 
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+    
 
 # about
 about:
