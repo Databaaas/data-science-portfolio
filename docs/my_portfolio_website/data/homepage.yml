@@ -147,7 +147,7 @@ client_and_work:
     - title: "Hierarchical Clustering for Organic Products Store"
       description: "Customer segmentation, the practice of grouping customers with similar characteristics,
       is crucial for success in today’s competitive market. Understanding customer behaviour and preferences allows businesses to tailor their marketing strategies for maximum effectiveness.
-      Clustering, a machine learning technique, plays a vital role in customer segmentation. It"
+      Clustering, a machine learning technique, plays a vital role in customer segmentation."
       button:
         icon: "icon-arrow-right"
         btnText: "Read more.."
