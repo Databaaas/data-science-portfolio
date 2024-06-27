@@ -229,8 +229,8 @@ contact:
   title: "Contact Francis"
     
   image:
-    x: "img/who-am-i/Office_photo.png"
-    _2x: "img/who-am-i/Office_photo.png"
+    x: "img/who-am-i/franco_photo.png"
+    _2x: "img/who-am-i/franco_photo.png"
     
   button:
     icon: "icon-mail-fill"
