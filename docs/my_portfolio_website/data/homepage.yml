@@ -175,7 +175,7 @@ client_and_work:
       image:
         x: "img/works/SPLOM.png"
         _2x: "img/works/SPLOM.png"
-      is_even: false
+      is_even: true
 
     - title: "Customer Segmentation for a Digital TV Company"
       description: "This segmentation analysis offers actionable insights for electronics businesses. By understanding distinct consumer preferences and behaviors across these clusters, businesses can tailor marketing strategies, optimise product offerings, and enhance customer experiences. "
