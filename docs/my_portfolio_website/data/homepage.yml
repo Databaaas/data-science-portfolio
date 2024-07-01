@@ -195,7 +195,7 @@ testimonial:
   items:
   
     - name: "Albert Whata, PhD"
-      position: "Senior Lecturer, University of Pretoria"
+      position: "Senior Lecturer - Statistics, University of Pretoria"
       content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
       image:
         x: "img/testimonials/whata.image.jpg"
