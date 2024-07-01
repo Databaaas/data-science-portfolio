@@ -180,8 +180,8 @@ client_and_work:
       description: "This segmentation analysis offers actionable insights for electronics businesses. By understanding distinct consumer preferences and behaviors across these clusters, businesses can tailor marketing strategies, optimise product offerings, and enhance customer experiences. "
       button:
         icon: "icon-arrow-right"
-        btnText: "Read more.."
-        URL: "https://phuzamanzegiza.github.io/data-science-projects/pca-kmeans-clustering.html"
+        btnText: "Launch Application"
+        URL: "https://zwox0p-francis-ngema.shinyapps.io/Cluster-K/"
       image:
         x: "img/works/variable_representation_plot-2.png"
         _2x: "img/works/variable_representation_plot-2.png"
