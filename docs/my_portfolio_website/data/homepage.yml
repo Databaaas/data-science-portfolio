@@ -162,7 +162,7 @@ client_and_work:
       image:
         x: "img/works/beeswarm.png"
         _2x: "img/works/beeswarm.png"
-      is_even: true
+      is_even: false
 
     - title: "Hierarchical Clustering for Organic Products Store"
       description: "Customer segmentation, the practice of grouping customers with similar characteristics,
@@ -175,7 +175,7 @@ client_and_work:
       image:
         x: "img/works/SPLOM.png"
         _2x: "img/works/SPLOM.png"
-      is_even: true
+      is_even: false
 
     - title: "Customer Segmentation for a Digital TV Company"
       description: "This segmentation analysis offers actionable insights for electronics businesses. By understanding distinct consumer preferences and behaviors across these clusters, businesses can tailor marketing strategies, optimise product offerings, and enhance customer experiences. "
@@ -186,7 +186,7 @@ client_and_work:
       image:
         x: "img/works/variable_representation_plot-2.png"
         _2x: "img/works/variable_representation_plot-2.png"
-      is_even: true
+      is_even: false
 
 
 # testimonial
