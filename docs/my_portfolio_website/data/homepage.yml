@@ -189,7 +189,7 @@ client_and_work:
 
 
 # testimonial
-testimonial:
+Testimonials:
   enable: true
   title: "Testimonials"
   items:
