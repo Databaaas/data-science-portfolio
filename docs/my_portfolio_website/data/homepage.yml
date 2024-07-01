@@ -152,21 +152,9 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Hierarchical Clustering for Organic Products Store"
-      description: "Customer segmentation, the practice of grouping customers with similar characteristics,
-      is crucial for success in today’s competitive market. Understanding customer behaviour and preferences allows businesses to tailor their marketing strategies for maximum effectiveness.
-      Clustering, a machine learning technique, plays a vital role in customer segmentation."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Read more.."
-        URL: "https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.html"
-      image:
-        x: "img/works/SPLOM.png"
-        _2x: "img/works/SPLOM.png"
-      is_even: true
-
     - title: "Consumer Behaviour of Certified Rice Customers"
-      description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. The primary objective was to understand the significant determinants driving consumer behavior towards certified rice."
+      description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. 
+                    The primary objective was to understand the significant determinants driving consumer behavior towards certified rice."
       button:
         icon: "icon-arrow-right"
         btnText: "Read more.."
@@ -174,6 +162,19 @@ client_and_work:
       image:
         x: "img/works/beeswarm.png"
         _2x: "img/works/beeswarm.png"
+      is_even: true
+
+    - title: "Hierarchical Clustering for Organic Products Store"
+      description: "Customer segmentation, the practice of grouping customers with similar characteristics,
+      is crucial for success in today’s competitive market. Understanding customer behaviour and preferences allows businesses to tailor their marketing strategies for maximum effectiveness.
+      Clustering, a machine learning technique, plays a vital role in customer segmentation."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read more.."
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.htm"
+      image:
+        x: "img/works/SPLOM.png"
+        _2x: "img/works/SPLOM.png"
       is_even: false
 
     - title: "Customer Segmentation for a Digital TV Company"
