@@ -203,17 +203,17 @@ algorithms by making them more interpretable!"
         x: "img/testimonials/whata.image.jpg"
         _2x: "img/testimonials/whata.image.jpg"
         
-    - name: "Chris Selig"
-      position: "Data Scientist"
+    - name: "Dr Cornelius J.P. Niemand"
+      position: "Senior Lecturer - Department of Information and Knowledge Management, University of Johannesburg"
       content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
       image:
-        x: "img/testimonials/chris.jpg"
-        _2x: "img/testimonials/chris.jpg"
+        x: "img/testimonials/niemand.jpg"
+        _2x: "img/testimonials/niemand.jpg"
 
     
 
     - name: "Prof Twinomurinzi Hossana"
-      position: "    Vice Dean Research, Centre for Applied Data Science (College for Business & Economics)"
+      position: "    Vice Dean Research, Centre for Applied Data Science (College for Business & Economics), University of Johannesburg"
       content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
       image:
         x: "img/testimonials/prof.webp"
