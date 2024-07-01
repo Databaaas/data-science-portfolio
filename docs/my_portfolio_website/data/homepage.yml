@@ -189,9 +189,9 @@ client_and_work:
 
 
 # testimonial
-Testimonials:
+testimonial:
   enable: true
-  title: "Testimonials"
+  title: "Endorsements"
   items:
   
     - name: "Justin Kurland, PhD"
