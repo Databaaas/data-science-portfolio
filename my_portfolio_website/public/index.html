@@ -1,0 +1,791 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7034&amp;path=livereload" data-no-instant defer></script>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+<title>Francis Ngema&#39;s Data Science Portfolio</title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="//localhost:7034/css/main.css"/>
+
+<link rel="stylesheet" href="//localhost:7034/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="//localhost:7034/css/custom.css"/>
+
+
+    
+
+
+</head>
+
+<body>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="//localhost:7034/">
+        <span>Francis</span>
+        <span>Ngema</span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="//localhost:7034/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:7034/img/showcase/data-science.gif"
+      data-srcset="//localhost:7034/img/showcase/data-science.gif 1x, //localhost:7034/img/showcase/data-science.gif 1x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Dr Francis Ngema.
+          <br />
+          <span
+            >Data Scientist</span
+          >
+        </h1>
+        <p class="lead">
+          Francis is the founder of <a target='_blank' href='https://research100.odoo.com/'>Research 100</a>, an online data science website that helps businesses with their data science projects and tertiary students with assignments, reports, and research projects.
+        </p>
+        <a
+          href="mailto:francisngema@gmail.com"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact Francis
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/fn-wysiwyg/" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/Phuzamanzegiza" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+        <a href="https://x.com/databaas" target="_blank"
+          ><i class="icon-twitter-line"></i
+        ></a>
+        
+        <a href="https://web.facebook.com/francis.ngema" target="_blank"
+          ><i class="icon-facebook-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:7034/img/showcase/data-science.gif"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-20 pt-20 section--border-bottom" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:7034/img/who-am-i/franco_photo.png"
+          data-srcset="//localhost:7034/img/who-am-i/franco_photo.png 1x, //localhost:7034/img/who-am-i/franco_photo.png 1x"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead">
+          <p class="lead"> I am a dedicated <strong>medical doctor</strong> and multidisciplinary <strong>data scientist</strong> with a passion for leveraging data to improve healthcare outcomes. My focus lies in the integration of artificial intelligence (AI) and explainable AI (XAI) to enhance the prediction and management of various medical conditions, including infectious diseases and chronic conditions. </p>
+<p class="lead"> My work spans collecting and analysing health data, developing predictive models, and creating user-friendly dashboards for both patients and healthcare professionals. </p>
+<p class="lead"> Beyond my medical background, I possess biostatistics and data science skills, using tools like Python, R, Stata and SQL.
+</p>
+        </p>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Portfolio
+    </h2>
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Clustering Insights into Diabetes Risk Factors</h3>
+        <p class="lead">
+          The objective of this study was to identify distinct clusters within a population based on various health and demographic parameters and to develop tailored strategic interventions for each cluster to improve diabetes management and prevention.
+        </p>
+        <a href="https://phuzamanzegiza.github.io/data-science-projects/diabetes-clusters.html" class="btn btn-primary" target="_blank"
+          >Read more..<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:7034/img/works/denseplot-1.png"
+          data-srcset="//localhost:7034/img/works/denseplot-1.png 1x, //localhost:7034/img/works/denseplot-1.png 2x"
+          alt="Clustering Insights into Diabetes Risk Factors"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:7034/img/works/swarm-b.png"
+          data-srcset="//localhost:7034/img/works/swarm-b.png 1x, //localhost:7034/img/works/swarm-b.png 2x"
+          alt="Consumer Behaviour of Certified Rice Customers"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Consumer Behaviour of Certified Rice Customers</h3>
+        <p class="lead">
+          This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. The primary objective was to understand the significant determinants driving consumer behavior towards certified rice.
+        </p>
+        <a href="https://phuzamanzegiza.github.io/data-science-projects/random-forest.html" class="btn btn-primary" target="_blank"
+          >Read more..<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Hierarchical Clustering for Organic Products Store</h3>
+        <p class="lead">
+          Customer segmentation, the practice of grouping customers with similar characteristics, is crucial for success in today’s competitive market. Understanding customer behaviour and preferences allows businesses to tailor their marketing strategies for maximum effectiveness. Clustering, a machine learning technique, plays a vital role in customer segmentation.
+        </p>
+        <a href="https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.htm" class="btn btn-primary" target="_blank"
+          >Read more..<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:7034/img/works/SPLOM.png"
+          data-srcset="//localhost:7034/img/works/SPLOM.png 1x, //localhost:7034/img/works/SPLOM.png 2x"
+          alt="Hierarchical Clustering for Organic Products Store"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:7034/img/works/variable_representation_plot-2.png"
+          data-srcset="//localhost:7034/img/works/variable_representation_plot-2.png 1x, //localhost:7034/img/works/variable_representation_plot-2.png 2x"
+          alt="Customer Segmentation for a Digital TV Company"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Customer Segmentation for a Digital TV Company</h3>
+        <p class="lead">
+          This segmentation analysis offers actionable insights for electronics businesses. By understanding distinct consumer preferences and behaviors across these clusters, businesses can tailor marketing strategies, optimise product offerings, and enhance customer experiences. 
+        </p>
+        <a href="https://zwox0p-francis-ngema.shinyapps.io/Cluster-K/" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">Feb 2018 - Nov 2022</div>
+                    <div class="experience__title">Medical Manager</div>
+                    <div class="experience__company">South African National Blood Service</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Feb 2016 - March 2017</div>
+                    <div class="experience__title">Registrar in Anatomical Pathology</div>
+                    <div class="experience__company">National Health Laboratory Service/ Wits university</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Sep 2013 - Jan 2016</div>
+                    <div class="experience__title">Medical Officer</div>
+                    <div class="experience__company">Carletonvile Hospital</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    10+ years of experience as  medical practitioner with a solid background in clinical and laboratory work, competent at navigating both public and private healthcare environments.
+Proven ability to manage large-scale projects and collaborate seamlessly within cross-functional teams. Beyond clinical expertise, I bring proficiency in data science, machine learning, and marketing analytics, applying scientific insights to extract valuable information and optimise strategies.
+                </p>
+                <a href="https://www.linkedin.com/" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="//localhost:7034/" class="btn btn-frameless"
+                   target="_blank">
+                    <i class="icon-profile-fill"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2023-2024</div>
+                            <div class="education__title">University of Johannesburg</div>
+                            <div class="education__degree">
+                                Master of Applied Data Science
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2001-2009</div>
+                            <div class="education__title">University of Witwatersrand</div>
+                            <div class="education__degree">
+                                MBBCh
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group section--border-bottom">
+    <div class="container">
+        <h2 class="rad-fade-down">Endorsements</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    He uses real-world examples to tackle challenging machine learning tasks and has taken the lead in efforts to make researchers trust machine learning algorithms by making them more interpretable!
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="//localhost:7034/img/testimonials/whata.image.jpg"
+                         data-srcset="//localhost:7034/img/testimonials/whata.image.jpg 1x, //localhost:7034/img/testimonials/whata.image.jpg 2x"
+                         alt="Albert Whata, PhD"/>
+                    <div class="testimonial__author-info">
+                        <h4>Albert Whata, PhD</h4>
+                        <span>Senior Lecturer - Statistics, University of Pretoria</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    He demonstrated exceptional understanding and application of competitive intelligence principles. His analytical skills and strategic insights were consistently impressive.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="//localhost:7034/img/testimonials/niemand.jpg"
+                         data-srcset="//localhost:7034/img/testimonials/niemand.jpg 1x, //localhost:7034/img/testimonials/niemand.jpg 2x"
+                         alt="Dr Cornelius J.P. Niemand"/>
+                    <div class="testimonial__author-info">
+                        <h4>Dr Cornelius J.P. Niemand</h4>
+                        <span>Senior Lecturer - Department of Information and Knowledge Management, University of Johannesburg</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <p>
+                    He exhibited outstanding proficiency in research, showcasing an ability to design, conduct, and analyse research with exceptional depth and rigor. He introduced complex medical concepts to enrich his research, seamlessly integrating them with data science principles.
+                </p>
+                <div class="testimonial__author">
+                    <img class="lozad testimonial__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="//localhost:7034/img/testimonials/prof.webp"
+                         data-srcset="//localhost:7034/img/testimonials/prof.webp 1x, //localhost:7034/img/testimonials/prof.webp 2x"
+                         alt="Prof Twinomurinzi Hossana"/>
+                    <div class="testimonial__author-info">
+                        <h4>Prof Twinomurinzi Hossana</h4>
+                        <span>    Vice Dean Research, Centre for Applied Data Science (College for Business &amp; Economics), University of Johannesburg</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact Francis</h2>
+            <div class="row pt-2">
+                
+                
+                  
+                    <img
+                      class="lozad img-responsive image-left-overflow"
+                      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                      data-src="//localhost:7034/img/who-am-i/franco_photo.png"
+                      data-srcset="//localhost:7034/img/who-am-i/franco_photo.png 1x, //localhost:7034/img/who-am-i/franco_photo.png 1x"
+                      alt="Profile Picture"
+                    />
+                  
+               
+              
+                
+                
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>Phone Number</h4>
+                    <span>0711822166</span>
+                    <h4>Email</h4>
+                    <span><a href="mailto:francisngema@gmail.com">francisngema@gmail.com</a></span>
+                    <h4>Address</h4>
+                    <span>Randburg, Gauteng</span>
+                    <br /><br />
+                    <a class="btn btn-primary" href='mailto:francisngemal@gmail.com'>
+                        <i class="icon-mail-fill"></i>
+                        Send Message
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Francis Ngema. All rights reserved.
+      </div>
+    </div>
+    
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:7034/#about">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:7034/#portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:7034/#contact">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footer__right">
+      <div class="footer__copy">
+        Site built with  <a href="https://business-science.github.io/portfoliodown/" target="_blank">portfoliodown</a>.
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+</footer>
+  <script src='//localhost:7034/js/rad-animations.js'></script>
+<script src='//localhost:7034/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='//localhost:7034/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='//localhost:7034/js/library/bootstrap.min.js'></script>
+<script src='//localhost:7034/js/sticky-header.js'></script>
+<script src='//localhost:7034/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='//localhost:7034/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
+  
+</body>
+
+</html>
