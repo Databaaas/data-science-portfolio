@@ -182,7 +182,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Read more.."
-        URL: "https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.htm"
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/hierarchical-clustering.html"
       image:
         x: "img/works/SPLOM.png"
         _2x: "img/works/SPLOM.png"
