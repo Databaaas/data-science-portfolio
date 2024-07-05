@@ -51,8 +51,7 @@ about:
     
     <p class="lead">
     Beyond my medical background, I possess biostatistics and data science skills, using tools like Python, R, Stata and SQL.
-    I have a proven track record in data-driven health initiatives like monitoring ferritin levels in
-    blood donors and optimizing blood donation procedures through operational surveys.
+    
     </p>
   button:
     icon: "icon-smile-fill"
@@ -160,9 +159,9 @@ client_and_work:
         btnText: "Read more.."
         URL: "https://phuzamanzegiza.github.io/data-science-projects/diabetes-clusters.html"
       image:
-        x: "img/works/sihloplot-1.png"
-        _2x: "img/works/sihloplot-1.png"
-      is_even: false
+        x: "img/works/denseplot-1.png"
+        _2x: "img/works/denseplot-1.png"
+      is_even: true
     
     - title: "Consumer Behaviour of Certified Rice Customers"
       description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. 
@@ -172,8 +171,8 @@ client_and_work:
         btnText: "Read more.."
         URL: "https://phuzamanzegiza.github.io/data-science-projects/random-forest.html"
       image:
-        x: "img/works/beeswarm.png"
-        _2x: "img/works/beeswarm.png"
+        x: "img/works/swarm-b.png"
+        _2x: "img/works/swarm-b.png"
       is_even: false
     
     - title: "Hierarchical Clustering for Organic Products Store"
@@ -218,7 +217,7 @@ algorithms by making them more interpretable!"
         
     - name: "Dr Cornelius J.P. Niemand"
       position: "Senior Lecturer - Department of Information and Knowledge Management, University of Johannesburg"
-      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      content: "He demonstrated exceptional understanding and application of competitive intelligence principles. His analytical skills and strategic insights were consistently impressive."
       image:
         x: "img/testimonials/niemand.jpg"
         _2x: "img/testimonials/niemand.jpg"
@@ -227,7 +226,8 @@ algorithms by making them more interpretable!"
 
     - name: "Prof Twinomurinzi Hossana"
       position: "    Vice Dean Research, Centre for Applied Data Science (College for Business & Economics), University of Johannesburg"
-      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      content: "He exhibited outstanding proficiency in research, showcasing an ability to design, conduct, and analyse research with exceptional depth and rigor. He introduced complex medical
+      concepts to enrich his research, seamlessly integrating them with data science principles."
       image:
         x: "img/testimonials/prof.webp"
         _2x: "img/testimonials/prof.webp"
