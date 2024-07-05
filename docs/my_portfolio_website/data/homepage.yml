@@ -152,16 +152,16 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Consumer Behaviour of Certified Rice Customers"
-      description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. 
-                    The primary objective was to understand the significant determinants driving consumer behavior towards certified rice."
+    - title: "Clustering Insights into Diabetes Risk Factors"
+      description: "The objective of this study was to identify distinct clusters within a population based on various health and demographic 
+                    parameters and to develop tailored strategic interventions for each cluster to improve diabetes management and prevention."
       button:
         icon: "icon-arrow-right"
         btnText: "Read more.."
-        URL: "https://phuzamanzegiza.github.io/data-science-projects/random-forest.html"
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/diabetes-clusters.html"
       image:
-        x: "img/works/beeswarm.png"
-        _2x: "img/works/beeswarm.png"
+        x: "img/works/sihloplot-1.png"
+        _2x: "img/works/sihloplot-1.png"
       is_even: false
     
     - title: "Consumer Behaviour of Certified Rice Customers"
