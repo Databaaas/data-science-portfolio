@@ -163,7 +163,19 @@ client_and_work:
         x: "img/works/beeswarm.png"
         _2x: "img/works/beeswarm.png"
       is_even: false
-
+    
+    - title: "Consumer Behaviour of Certified Rice Customers"
+      description: "This report presents an analysis of the factors influencing the purchase of certified rice, using machine learning techniques to identify key predictors. 
+                    The primary objective was to understand the significant determinants driving consumer behavior towards certified rice."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read more.."
+        URL: "https://phuzamanzegiza.github.io/data-science-projects/random-forest.html"
+      image:
+        x: "img/works/beeswarm.png"
+        _2x: "img/works/beeswarm.png"
+      is_even: false
+    
     - title: "Hierarchical Clustering for Organic Products Store"
       description: "Customer segmentation, the practice of grouping customers with similar characteristics,
       is crucial for success in today’s competitive market. Understanding customer behaviour and preferences allows businesses to tailor their marketing strategies for maximum effectiveness.
