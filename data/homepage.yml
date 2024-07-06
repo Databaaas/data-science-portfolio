@@ -5,7 +5,7 @@ head:
 showcase:
   enable: true
   title: "Hello, I’m Dr Francis Ngema."
-  subtitle: "Data Scientist"
+  subtitle: "Medical Doctor Data Scientist"
   description: "Francis is the founder of <a target='_blank' href='https://research100.odoo.com/'>Research 100</a>, an online data science website that helps businesses with their data science projects and tertiary students with assignments, reports, and research projects."
   image:
     x: "img/showcase/data-science.gif"
